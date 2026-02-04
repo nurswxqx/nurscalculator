@@ -1,0 +1,22 @@
+<h1>Нурстын калькуляторы</h1>
+
+<div class="operation-section">
+  <h2>Арифметика</h2>
+  <input id="expr" type="text" placeholder="Например: 2 + 3 * 4">
+  <button onclick="calculateExpr()">жауабы</button>
+</div>
+
+<div class="operation-section">
+  <h2>тубырасты, синус, косинуско</h2>
+  <input id="number" type="number" placeholder="жаз ал">
+  <select id="operation">
+    <option value="sqrt">√ тубырасты</option>
+    <option value="sin">sin (градус)</option>
+    <option value="cos">cos (градус)</option>
+    <option value="tan">tan (градус)</option>
+    <option value="cot">cot (градус)</option>
+  </select>
+  <button onclick="calculate()">шыгар</button>
+</div>
+
+<div id="result"></div>
